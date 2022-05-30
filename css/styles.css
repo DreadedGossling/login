@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+            }
+  body{
+      margin-left: 20px;
+      padding: 0px;
+      font-family: 'halvetica';
+      background-color: rgb(206, 224, 240);
+              }
+  body .container{
+    margin: 1%;
+    margin-bottom: 2%;
+    display: flex;
+    width: 80%;
+    height: 100vh;
+                 }
+  body .container div{
+    display: flex;
+    flex-direction: column;
+               }
+  body .container .left-container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    flex:1;
+    padding: 25px;
+    border-left: 5px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+                    }
+  body .container .left-container .box{
+    background-color: white;
+    flex:1;
+    padding: 25px;
+    height: 100%;
+                     } 
+  body .container .left-container .box p{
+    width: 70%;
+    font-size: 1em;
+    color: rgb(99, 101, 103);
+                      }
+  body .container .left-container .box h1{
+    font-size: 3em;
+    margin-top: 90px;
+    font-family: serif;}
+ 
+    body .container .left-container .box span{
+          color: blue;
+                       }
+    body .container .left-container .box form{
+           margin-top: 70px;   
+                       }
+    body .container .left-container .box label{
+           margin-top: 5px;
+                       }
+    body .container .left-container .box input{
+        height: 40px;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 3px silver solid;
+        border-radius: 7px;
+                       }
+    body .container .left-container .box button{
+        margin-top: 20px;
+        height: 40px;
+        width: 100%;
+        background-color: rgb(13, 13, 157) ;
+        color: white;
+        border: 2px silver solid;
+        border-radius: 7px;
+                     }
+ body .container .left-container .box .sign{
+        margin-top: 30px;
+        text-align: center;
+        position: relative;
+        width: 100%;
+                    }  
+     body .container .left-container .box .sign:before{
+        content:"";
+        position: absolute;
+        display: block;
+        width: 35%;
+        height: 15%;
+        left: 0;
+        top: 50%;
+        background: rgb(199, 201, 202);
+                   }
+     body .container .left-container .box .sign:after{
+        content:"";
+        position: absolute;
+        display: block;
+        width: 35%;
+        height: 15%;
+        right: 0;
+        top: 50%;
+        background: rgb(199, 201, 202);
+                  }
+  ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  ul li{
+    align-items: center;
+  }
+  .one ,.two, .three{
+    margin: 10%;
+  }
+         /*Right Halve*/
+
+.container .right-container{
+    background-color: rgb(28, 9, 174);
+    flex:1;
+    padding:15px;
+    width: 100%;
+    height: 100%;
+    margin-right: 2%;
+    border-right: 5px solid rgb(28, 9, 174);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;  
+             }
+  .container .right-container h2{
+    margin-top: 25%;
+    margin-left: 15%;
+    color: white;
+    font-family:serif ;
+    font-size: 4.3em;
+            }
+  .container .right-container .quote{
+    margin-top:0px ;
+    margin-left: 25%;
+    width: 75%;
+    font-size: 1em;
+              }
+    .container .right-container .text{
+      display: flex;
+      align-items: flex-start;
+      margin-left: 25%;
+      margin-top: 10%;
+      font-size: 1em;
+                }
